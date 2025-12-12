@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& nodemon index.ts",
+    "build": "tsc",
+    "preprod": "set NODE_ENV=development&& node dist/index.js",
+    "start": "set NODE_ENV=production&& node dist/index.js",
+    "startts": "set NODE_ENV=production&& ts-node --esm index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "https": "^1.0.0",
+    "luxon": "^3.7.2",
+    "mongoose": "^9.0.1",
+    "next-auth": "^4.24.13",
+    "nodemon": "^3.1.11",
+    "ws": "^8.18.3",
+    "y-websocket": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

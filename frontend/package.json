@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev -p 3010",
+    "build": "next build",
+    "preprod": "next start -p 3010",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Playroom built on Next.js",
+  "dependencies": {
+    "@radix-ui/react-collapsible": "^1.0.3",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slider": "^1.1.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.13.2",
+    "class-variance-authority": "^0.7.1",
+    "framer-motion": "^12.23.26",
+    "lucide-react": "^0.560.0",
+    "next": "^16.0.10",
+    "next-auth": "^4.24.13",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "y-websocket": "^3.0.0",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/react": "^18.0.21",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.8.4"
+  }
+}
